@@ -5,11 +5,13 @@ Data abstraction of _things_ in Clojure.
 At times `defrecord` may be too permissive and `deftype` may be too low-level.
 _Thingy_ lets you create data abstraction with specified permissions.
 
-TODO: Specify as dependency in `project.clj`:
+Specify as dependency in `project.clj`:
 
 ```clojure
-:dependencies [[thingy "0.1.0"]]  ; works w/Clojure 1.2.1, 1.3.0 and 1.4.0
+:dependencies [[thingy "0.1.0-SNAPSHOT"]]  ; works w/Clojure 1.2.1, 1.3.0 and 1.4.0
 ```
+
+NOTE: This library is not on Clojars yet!
 
 
 ## Usage
